@@ -8,7 +8,7 @@
 	 x="0px" y="0px" width="249px" height="119px" viewBox="0 0 249 119" enable-background="new 0 0 249 119" xml:space="preserve">
 <defs>
 </defs>
-<polygon fill="#FFFFFF" stroke="#666666" stroke-miterlimit="10" points="96.391,1.109 0.552,96.979 0.531,99.417 13.646,118.292 
+<polygon fill="#FFFFFF" stroke="#999999" stroke-miterlimit="10" points="96.391,1.109 0.552,96.979 0.531,99.417 13.646,118.292 
 	237.25,118.292 248.766,99.406 248.742,96.992 152.844,1.094 "/>
 <rect x="41.047" y="57.719" fill="#FFFFFF" width="1.344" height="3.672"/>
 <path fill="#00693B" d="M89.469,36.785c0,0,2.305-3.938,3.073-4.898c0,0-0.096-3.458,2.594-6.627
