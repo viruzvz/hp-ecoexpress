@@ -2,9 +2,11 @@
   .container
     .row
       .col-md-4
-        h2 Chame um Biker
-        p Entregas de Documentos e volumes realizados por ciclistas uniformizados, que atendem seus clientes com sorriso no rosto, evitando os engarrafamentos, passando silenciosamente ao seu lado, com um custo mais baixo e sem emitir gás carbônico em suas entregas.
-        a.btn.btn-block.btn-lg.btn-success(href='#') SOLICITE UM ORÇAMENTO
+        .controle
+          h2.header2 
+            strong Chame um Biker
+          p.color-master Entregas de Documentos e volumes realizados por ciclistas uniformizados, que atendem seus clientes com sorriso no rosto, evitando os engarrafamentos, passando silenciosamente ao seu lado, com um custo mais baixo e sem emitir gás carbônico em suas entregas.
+          a.btn.btn-block.btn-lg.btn-position.btn-ecoexpress.links-ecoexpress(href='#') SOLICITE UM ORÇAMENTO
       .col-md-8
         #carousel-example-generic.carousel.slide(data-ride='carousel')
           // Indicators
@@ -12,17 +14,25 @@
             li.active(data-target='#carousel-example-generic', data-slide-to='0')
             li(data-target='#carousel-example-generic', data-slide-to='1')
             li(data-target='#carousel-example-generic', data-slide-to='2')
+            li(data-target='#carousel-example-generic', data-slide-to='3')
+            li(data-target='#carousel-example-generic', data-slide-to='4')
+            li(data-target='#carousel-example-generic', data-slide-to='5')
           // Wrapper for slides
           .carousel-inner(role='listbox')
             .item.active
-              img(src='...', alt='...')
-              .carousel-caption
-                | ...
+              img.img-responsive(src='images/fotos/editado/06.jpg', alt='Imagem dos ciclistas em frente ao congresso nacional')
             .item
-              img(src='...', alt='...')
-              .carousel-caption
-                | ...
-            |     ...
+              img.img-responsive(src='images/fotos/editado/02.jpg', alt='Imagem dos ciclistas em frente ao congresso nacional')
+            .item
+              img.img-responsive(src='images/fotos/editado/03.jpg', alt='Imagem dos ciclistas em frente ao congresso nacional')
+            .item
+              img.img-responsive(src='images/fotos/editado/04.jpg', alt='Imagem dos ciclistas em frente ao congresso nacional')
+            .item
+              img.img-responsive(src='images/fotos/editado/05.jpg', alt='Imagem dos ciclistas em frente ao congresso nacional')
+            .item
+              img.img-responsive(src='images/fotos/editado/01.jpg', alt='Imagem dos ciclistas em frente ao congresso nacional')
+
+
           // Controls
           a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
             span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
