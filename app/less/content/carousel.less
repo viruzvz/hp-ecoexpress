@@ -1,11 +1,20 @@
 .controle {
   min-height: 284px;
-  position: relative;
-  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Aligner-item--top {
+  align-self: flex-start;
+  order: 1;
+}
+ .Aligner-item {
+  max-width: 100%;
+  order: 2;
 }
 .btn-position {
-  position:absolute;
-  bottom: 0;
+
+  align-self: flex-end;
 }
 .btn-ecoexpress {
   padding: 20px;
@@ -14,4 +23,10 @@
 }
 .carousel-indicators {
   top:10px;
+}
+
+@media (max-width:@screen-sm-max) {
+  .controle {
+    float: inherit;
+  }
 }

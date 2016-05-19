@@ -1,22 +1,30 @@
-footer
+footer.footer 
   .container
     .row
       .col-md-4
         h4 Redes Sociais
+        ul.list-unstyled.list-inline
+          li
+            a(href='#')
+              img(src='images/facebook.jpg' alt='Facebook')
+          li
+            a(href='#')
+              img(src='images/twitter.jpg' alt='Twitter')
       .col-md-4.text-center
-        img(src='img/logo-footer.svg' alt='Logo Rodapé')
-        p ECOEXPRESS
-          br
-          small TRANSPORTES BIKE PEQUENOS VOLUMES E DOCUMENTOS
+        p
+        img(src='images/logo.svg' alt='Logo Rodapé')
+        p.size-medium.color-master.margin-off: strong ECOEXPRESS
+        p.size-small TRANSPORTES BIKE PEQUENOS VOLUMES E DOCUMENTOS
       .col-md-4
 .sub-footer
   .container
-    .col-md-4
+    .row
+      .col-md-2
 
-    .col-md-4.text-center
-      small © Copyright 2016 - Todos os direitos reservados  
-      a(href='#') http://www.ecoexpressbr.com.br
-    .col-md-4
-      small 
-        | Designed by 
-        a(href='http://www.carlosvz.com') carlosvz
+      .col-md-8.text-center
+        small © Copyright 2016 - Todos os direitos reservados 
+          a(href='#') http://www.ecoexpressbr.com.br
+      .col-md-2.text-right
+        small 
+          | Designed by 
+          a(href='http://www.carlosvz.com') carlosvz
