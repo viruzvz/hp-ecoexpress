@@ -1,20 +1,11 @@
 .controle {
   min-height: 284px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.Aligner-item--top {
-  align-self: flex-start;
-  order: 1;
-}
- .Aligner-item {
-  max-width: 100%;
-  order: 2;
+  position: relative;
+  float: left;
 }
 .btn-position {
-
-  align-self: flex-end;
+  position:absolute;
+  bottom: 0;
 }
 .btn-ecoexpress {
   padding: 20px;
@@ -24,8 +15,12 @@
 .carousel-indicators {
   top:10px;
 }
-
-@media (max-width:@screen-sm-max) {
+@media (min-width:992px) and (max-width:1199px) {
+  .controle {
+    min-height: 234px;
+  }
+}
+@media (min-width:@screen-xs-min) and (max-width:@screen-sm-max) {
   .controle {
     float: inherit;
   }

@@ -6,6 +6,9 @@
   border-bottom: 1px solid @gray-color;
   margin-bottom: 2px;
 }
+.right {
+  text-align: right;
+}
 .nav-eco {
   background-color: @primary-color;
   border-top:1px solid @gray-color;
@@ -23,5 +26,25 @@
   &:hover {
     background-color: @master-color !important;
     color:#afcc60;
+  }
+}
+.navbar-toggle {
+  background-color: @master-color;
+  .icon-bar {
+    background-color: #fff;
+  }
+}
+@media (min-width:@screen-xs-min) and (max-width:@screen-sm-max) {
+  .right {
+    text-align: inherit;
+  }
+  .topo {
+    background-image: none;
+  }
+  .timer {
+    display: none;
+  }
+  .sub-title--sec {
+    margin-top: 0!important;
   }
 }

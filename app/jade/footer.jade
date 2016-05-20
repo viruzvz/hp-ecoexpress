@@ -28,3 +28,41 @@ footer.footer
         small 
           | Designed by 
           a(href='http://www.carlosvz.com') carlosvz
+
+
+
+// Modal
+#ciclista.modal.fade(tabindex='-1', role='dialog', aria-labelledby='ciclistaLabel')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+        h4#ciclistaLabel.modal-title Ciclista Integral
+      .modal-body
+        table.table.table-hover
+          caption Modelos de pagamento
+          thead
+            tr
+              th #
+              th First Name
+              th Last Name
+              th Username
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td Larry
+              td the Bird
+              td @twitter
+      .modal-footer
+        button.btn.btn-default(type='button', data-dismiss='modal') Fechar
