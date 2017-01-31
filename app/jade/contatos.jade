@@ -8,16 +8,16 @@
         form(action='http://form.ultramail.com.br/', method='POST')
           .form-group
             label(for='email') Endereço de E-mail
-            input#email.form-control(type='email', name="email" placeholder='nome@provedor.com.br')
+            input#email.form-control(type='email', name="email" placeholder='nome@provedor.com.br' required)
           .form-group
             label(for='nome') Nome
-            input#nome.form-control(type='text', name="nome" placeholder='Nome')
+            input#nome.form-control(type='text', name="nome" placeholder='Nome' required)
           .form-group
             label(for='assunto') Assunto
             input#assunto.form-control(type='text', name="assunto" placeholder='Assunto')
           .form-group
             label(for='mensagem') Mensagem
-            textarea#mensagem.form-control(rows="3", name="mensagem")
+            textarea#mensagem.form-control(rows="3", name="mensagem" required)
           button.btn.btn-default(type='submit', value='Eviar') Enviar
 
           input(type='hidden', name='key', value='eJwBzgAx/yS6om07NtWgUVGSwc1hfBDnO/L0fP45gjjNivN/XXS2Rm9ybVVsdHJhTWFpbFhjPjFAmyXTdBtFtoMg6iU13yuGZTZ8diR6SdZnsgnehgZy4AaB0njtGAT5fmcfmrTq7b0G3b5nyeFx4MiCn02Eww6b+6wzahrs0GA+SeZzxpV11GIuxrTOiQ/XH1mD7fdqQFYEDnnNFyPZeIQRq3impmWfly1SyiW2dKz3DiFVIBnTLNAdJcKi4liHgqrXyn55LAP24Q2NB2a1rbiBcgf+tBNlJg==')
